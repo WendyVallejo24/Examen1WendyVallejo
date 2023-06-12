@@ -1,4 +1,4 @@
-package org.uv.examenWendy;
+package org.uv.examenwendy;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

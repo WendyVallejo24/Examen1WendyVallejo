@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package org.uv.examenWendy.models;
+package org.uv.examenwendy.models;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -15,20 +15,24 @@ import javax.persistence.Table;
  * @author wendy
  */
 @Entity
-@Table(name = "Materias")
-public class Materia {
+@Table(name = "Alumnos")
+public class Alumnos {
     @Id
     @GeneratedValue(strategy= GenerationType.IDENTITY)
-    private Long claveMateria;
+    private Long claveAlumno;
+    
     private String nombre;
-    private int creditos;
+    
+    private String direccion;
+    
+    private String telefono;
 
-    public Long getClaveMateria() {
-        return claveMateria;
+    public Long getClaveAlumno() {
+        return claveAlumno;
     }
 
-    public void setClaveMateria(Long claveMateria) {
-        this.claveMateria = claveMateria;
+    public void setClaveAlumno(Long claveAlumno) {
+        this.claveAlumno = claveAlumno;
     }
 
     public String getNombre() {
@@ -39,13 +43,20 @@ public class Materia {
         this.nombre = nombre;
     }
 
-    public int getCreditos() {
-        return creditos;
+    public String getDireccion() {
+        return direccion;
     }
 
-    public void setCreditos(int creditos) {
-        this.creditos = creditos;
+    public void setDireccion(String direccion) {
+        this.direccion = direccion;
     }
-    
+
+    public String getTelefono() {
+        return telefono;
+    }
+
+    public void setTelefono(String telefono) {
+        this.telefono = telefono;
+    }   
     
 }
