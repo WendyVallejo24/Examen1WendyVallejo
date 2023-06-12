@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package org.uv.examen1Wendy.controllers;
+package org.uv.examenWendy.controllers;
 
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -11,15 +11,15 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import org.uv.examen1Wendy.models.Alumnos;
-import org.uv.examen1Wendy.models.Grupos;
+import org.uv.examenWendy.models.Alumnos;
+import org.uv.examenWendy.models.Grupos;
 import dto.GruposDTO;
 import java.util.List;
 import java.util.stream.Collectors;
-import org.uv.examen1Wendy.models.Materia;
-import org.uv.examen1Wendy.repository.AlumnosRepository;
-import org.uv.examen1Wendy.repository.GruposRepository;
-import org.uv.examen1Wendy.repository.MateriaRepository;
+import org.uv.examenWendy.models.Materia;
+import org.uv.examenWendy.repository.AlumnosRepository;
+import org.uv.examenWendy.repository.GruposRepository;
+import org.uv.examenWendy.repository.MateriaRepository;
 
 /**
  *

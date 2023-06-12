@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package org.uv.examen1Wendy.controllers;
+package org.uv.examenWendy.controllers;
 
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -12,11 +12,11 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import org.uv.examen1Wendy.models.Alumnos;
+import org.uv.examenWendy.models.Alumnos;
 import dto.AlumnosDTO;
 import java.util.List;
 import org.springframework.beans.BeanUtils;
-import org.uv.examen1Wendy.repository.AlumnosRepository;
+import org.uv.examenWendy.repository.AlumnosRepository;
 /**
  *
  * @author wendy

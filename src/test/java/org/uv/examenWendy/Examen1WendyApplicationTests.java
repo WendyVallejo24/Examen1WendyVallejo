@@ -1,5 +1,6 @@
-package org.uv.examen1Wendy;
+package org.uv.examenWendy;
 
+import org.uv.examenWendy.Examen1WendyApplication;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
