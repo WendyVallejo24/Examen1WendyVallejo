@@ -5,7 +5,6 @@
 package org.uv.examen1Wendy.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.uv.examen1Wendy.models.Alumnos;
 import org.uv.examen1Wendy.models.Grupos;
 
 /**

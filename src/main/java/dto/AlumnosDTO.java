@@ -4,8 +4,6 @@
  */
 package dto;
 
-import org.uv.examen1Wendy.models.Grupos;
-
 /**
  *
  * @author wendy
